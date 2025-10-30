@@ -1,0 +1,66 @@
+/* Reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    background-color: #7cb5ff; /* Cor azul do bloco central */
+    font-family: Arial, sans-serif;
+}
+
+/* Container central */
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white; /* Bloco branco no meio */
+    border-radius: 12px;
+    padding: 50px 40px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    width: 400px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 18px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #4b63ff;
+    box-shadow: 0 0 6px rgba(75, 159, 255, 0.4);
+    outline: none;
+}
+
+/* Botão */
+button {
+    background-color: #0a74ff;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 25px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #3748d8;
+    transform: scale(1.02);
+}
