@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.container-header{
+    width: 100%;
+    background: rgb(23, 124, 255);
+    height: 8%;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    color: white;
+}
+.barra-pesquisa{
+    height: 10%;
+    width: 20%;
+    padding: 20%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: -19% 0 0 5%;
+}
+.barra-pesquisa input{
+    height: 5%;
+    width: 40%;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+}
+.barra-pesquisa input::placeholder{
+    padding: 0 0 0 40px;
+    font-size: 15px;
+}
+.icon-search{
+    position: absolute;
+    z-index: 1;
+    margin: 8px 0 0 10px;
+    height: 25px;
+    cursor: context-menu;
+}
+.container-inicio{
+    width: 3%;
+    height: 95%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 151, 33);
+    border-radius: 7px;
+    margin: 0.1% 0 0 50%;
+}
+.container-inicio label{
+    padding: 5px 0 0 10px;
+    cursor: pointer;
+}
+
+
+.container-vagas{
+    width: 3%;
+    height: 95%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 151, 33);
+    border-radius: 7px;
+    margin: 0.1% 0 0 15px;
+}
+.container-vagas label{
+    padding: 5px 0 0 8px;
+    cursor: pointer;
+}
+
+
+
+.container-notificacoes{
+    width: 3%;
+    height: 95%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 151, 33);
+    border-radius: 7px;
+    margin: 0.1% 0 0 15px;
+}
+.container-notificacoes label{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+    white-space: normal;
+}
+
+
+.container-perfil{
+    width: 3%;
+    height: 95%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 151, 33);
+    border-radius: 7px;
+    margin: 0.1% 0 0 15px;
+}
+.container-perfil label{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+    white-space: inherit;
+}
+.premium{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 1% 0 0 25%;
+}
