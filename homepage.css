@@ -117,3 +117,100 @@
     text-decoration: none;
     margin: 1% 0 0 25%;
 }
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+
+
+.container-perfil-esquerda{
+    height: 70%;
+    width: 17%;
+    background-color: rgb(42, 134, 255);
+    position: absolute;
+    margin: 5% 0 0 1%;
+    border-radius: 10px;
+    border: 2px solid rgb(15, 118, 236);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.397);
+}
+.img-profile{
+    height: 200px;
+    margin: 7% 0 0 18%;
+    border: 2px solid rgba(255, 255, 255, 0.521);
+    border-radius: 100%;
+}
+.container-perfil-esquerda p{
+    font-size: 20px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-variant: inherit;
+    margin: 5% 0 0 20%;
+}
+.container-perfil-esquerda h4{
+    width: 70%;
+    margin: 20px 0 0 20%;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+.icon-map{
+    height: 20px;
+    margin: 10% 0 0 20%;
+}
+.text-infos{
+    color: white;
+    font-weight: 400;
+    margin: 10% 0 0 3%;
+    position: absolute;
+}
+.icon-email{
+    height: 20px;
+    margin: 80px 0 0 -20px;
+    position: absolute;
+}
+.text-email{
+    color: white;
+    margin-top: 80px;
+    margin-left: 10px;
+    position: absolute;
+}
+.button-config-perfil{
+    margin: 65% 0 0 -9%;
+    position: absolute;
+    height: 40px;
+    width: 70%;
+    background: rgb(253, 155, 8);
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.425);
+}
+
+
+
+/*----------------------------------------------------------------*/
+
+
+.vagas-disponiveis{
+    height: 90%;
+    width: 40%;
+    position: absolute;
+    margin: 3% 0 0 25%;
+    background-color: none;
+}
+.container-vagas-presencial{
+    background-color: rgba(255, 255, 255, 0.233);
+    margin-top: 35px;
+    height: 16%;
+    width: 110%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
