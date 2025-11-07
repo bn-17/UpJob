@@ -6,8 +6,11 @@
     <title>Homepage</title>
     <link rel="stylesheet" href="homepage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal+Mania&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Momo+Trust+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal+Mania&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="container-header">
@@ -19,26 +22,26 @@
         
         
         <div class="container-inicio">
-            <img src="../assets/icon-home.svg" alt="icon-home" style="height: 25px; margin-top: 10px;">
-            <label for="Inicio" style="cursor: pointer; font-weight: 400;">Inicio</label>
+            <img src="../assets/icon-home.svg" alt="icon-home" style="height: 25px; margin-top: 10px; background: none;">
+            <label for="Inicio" style="cursor: pointer; font-weight: 400; background: none;">Inicio</label>
         </div>
         
         
         <div class="container-vagas">
-            <img src="../assets/icon-wallet.svg" alt="Icon Vagas" style="margin-top: 6px;">
-            <label for="Vagas" style="font-weight: 400;">Vagas</label>
+            <img src="../assets/icon-wallet.svg" alt="Icon Vagas" style="margin-top: 6px; background: none;">
+            <label for="Vagas" style="font-weight: 400; background: none;">Vagas</label>
         </div>
         
         
         <div class="container-notificacoes">
-            <img src="../assets/notification-icon.svg" alt="Icone Notificaçoes" style="margin-top: 8px;">
-            <label for="Notificações">Notif.</label>
+            <img src="../assets/notification-icon.svg" alt="Icone Notificaçoes" style="margin-top: 8px; background: none;">
+            <label for="Notificações" style="background: none; font-weight: 400;">Notif.</label>
         </div>
         
         
         <div class="container-perfil">
-            <img src="../assets/icon-profile.svg" alt="Icon Perfil" style="margin-top: 8px;">
-            <label for="Perfil">Perfil</label>
+            <img src="../assets/icon-profile.svg" alt="Icon Perfil" style="margin-top: 8px; background: none;">
+            <label for="Perfil" style="background: none; font-weight: 400;">Perfil</label>
         </div>
         <a href="" class="premium">Obter Premium </a>
     </header>
@@ -52,31 +55,28 @@
         <label  class="text-email">brunoleite@gmail.com</label>
         <button class="button-config-perfil">Editar Perfil</button>
     </div>
+    <Label style="position: absolute; margin: 6% 0 0 45%; font-size: 25px; font-weight: 500; text-decoration: underline;">Algumas Vagas Disponiveis</Label>
     <div class="vagas-disponiveis">
         <div class="container-vagas-presencial">
-            <label for="">Vendedor(a) de Loja/Comércio</label>
+            <label class="title-vagas">Vendedor(a) de Loja/Comércio</label>
+            <img src="assets/loja-logo.jpg" class="logo-loja">
+            <label style="color: white; font-size: 20px; margin-left: 20px;">Atribuições:</label>
             <label>Aumentar o faturamento (vendas) e garantir a satisfação e fidelização do cliente no ponto de venda.</label>
-            <button class="button-candidatar">Candatar-se</button>
+            <button class="button-candidatar">Saiba Mais</button>
         </div>
         <div class="container-vagas-presencial">
-            <label for="">Cozinheiro(a) ou Auxiliar de Cozinha</label>
+            <label class="title-vagas">Cozinheiro(a) ou Auxiliar de Cozinha</label>
+            <img src="assets/restaurant-logo.jpg" class="logo-loja">
+            <label style="color: white; font-size: 20px; margin-left: 20px;">Atribuições:</label>
             <label>Produzir alimentos de forma consistente (qualidade e sabor padrão) e garantir o alto nível de higiene e segurança alimentar (ANVISA/vigilância sanitária).</label>
-            <button class="button-candidatar">Candatar-se</button>
+            <button class="button-candidatar">Saiba Mais</button>
         </div>
         <div class="container-vagas-presencial">
-            <label for="">Mecânico(a) Industrial ou Automotivo</label>
-            <label>Minimizar o tempo de inatividade (paradas) das máquinas/veículos, garantindo a continuidade e segurança da produção/operação.</label>
-            <button class="button-candidatar">Candatar-se</button>
-        </div>
-        <div class="container-vagas-presencial">
-            <label>Professor(a) do Ensino Básico/Fundamental</label>
-            <label>Promover o desenvolvimento intelectual e social dos alunos, cumprindo o currículo escolar e mantendo um ambiente de aprendizado eficaz e inclusivo.</label>
-            <button class="button-candidatar">Candatar-se</button>
-        </div>
-        <div class="container-vagas-presencial">
-            <label>Técnico(a) de Enfermagem/Auxiliar de Saúde</label>
-            <label>Garantir o cuidado direto e humanizado aos pacientes, auxiliando o Enfermeiro e o Médico, e mantendo a rotina e a segurança do setor de atendimento.</label>
-            <button class="button-candidatar">Candatar-se</button>
+            <label class="title-vagas">Mecânico(a) Industrial ou Automotivo</label>
+            <img src="assets/macanica-logo.png" class="logo-loja" style="background-color: white;">
+            <label style="color: white; font-size: 20px; margin-left: 20px;">Atribuições:</label>
+            <label style="font-size: 23px; color: white; margin-bottom: 50px; margin-left: 110px;">Minimizar o tempo de inatividade (paradas) das máquinas/veículos, garantindo a continuidade e segurança da produção/operação.</label>
+            <button class="button-candidatar">Saber Mais</button>
         </div>
     </div>
 </body>
