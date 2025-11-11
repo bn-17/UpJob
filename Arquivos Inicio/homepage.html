@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpJob | Inicio</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Momo+Trust+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal+Mania&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container-header">
+        <img src="../assets/paper-plane-svgrepo-com (1).svg" alt="Logo" style="background: none; fill: rgba(23, 124, 255, 0.226); margin-left: 10px;">
+        <div class="barra-pesquisa">
+            <img src="../assets/search-icon.svg" alt="Icon Search" class="icon-search">
+            <input type="text" placeholder="Pesquisa">
+        </div>
+        
+        <div class="container-inicio">
+            <img src="../assets/icon-home.svg" alt="icon-home" style="height: 25px; margin-top: 10px; background: none;">
+            <label for="Inicio" style="cursor: pointer; font-weight: 400; background: none;">Inicio</label>
+        </div>
+        
+        
+        <div class="container-vagas">
+            <img src="../assets/icon-wallet.svg" alt="Icon Vagas" style="margin-top: 6px; background: none;">
+            <label for="Vagas" style="font-weight: 400; background: none;">Vagas</label>
+        </div>
+        
+        
+        <div class="container-notificacoes">
+            <img src="../assets/notification-icon.svg" alt="Icone Notificaçoes" style="margin-top: 8px; background: none;">
+            <label for="Notificações" style="background: none; font-weight: 400;">Notif.</label>
+        </div>
+        
+        
+        <div class="container-perfil">
+            <img src="../assets/icon-profile.svg" alt="Icon Perfil" style="margin-top: 8px; background: none;">
+            <label for="Perfil" style="background: none; font-weight: 400;">Perfil</label>
+        </div>
+        <a href="" class="premium">Obter Premium </a>
+    </header>
+    <div class="container-perfil-esquerda">
+        <img class="img-profile" src="../assets/perfil-pessoa.jpeg" alt="Perfil">
+        <p>Bruno Soares</p>
+        <h4>Sucesso é a soma de pequenos esforços🚀</h4>
+        <img src="../assets/map-pin-svgrepo-com.svg" style="height: 20px; margin: 10% 0 0 20%; background: none;">
+        <label for="Cidade" class="text-infos">Presidente Prudente</label>
+        <img src="../assets/email-1573-svgrepo-com.svg" style="height: 20px; background: none; margin: 80px 0 0 -20px; position: absolute;">
+        <label  class="text-email">brunoleite@gmail.com</label>
+        <button class="button-config-perfil">Editar Perfil</button>
+    </div>
+    <Label style="position: absolute; margin: 6% 0 0 45%; font-size: 25px; font-weight: 500; text-decoration: underline; ">Algumas Vagas Disponiveis</Label>
+    <div class="vagas-disponiveis">
+        <div class="container-vagas-presencial">
+            <label class="title-vagas">Vendedor(a) de Loja/Comércio</label>
+            <img src="../assets/loja-logo.jpg" class="logo-loja">
+            <label style="color: white; font-size: 20px; margin-left: 20px;">Atribuições:</label>
+            <label style="font-size: 23px; color: white; margin-bottom: 50px; margin-left: 110px;">Aumentar o faturamento (vendas) e garantir a satisfação e fidelização do cliente no ponto de venda.</label>
+            <button class="button-candidatar">Saiba Mais</button>
+        </div>
+        <div class="container-vagas-presencial">
+            <label class="title-vagas">Cozinheiro(a) ou Auxiliar de Cozinha</label>
+            <img src="../assets/restaurant-logo.jpg" class="logo-loja">
+            <label style="color: white; font-size: 20px; margin-left: 20px;">Atribuições:</label>
+            <label style="font-size: 23px; color: white; margin-bottom: 50px; margin-left: 110px;">Produzir alimentos de forma consistente (qualidade e sabor padrão) e garantir o alto nível de higiene e segurança alimentar (ANVISA/vigilância sanitária).</label>
+            <button class="button-candidatar">Saiba Mais</button>
+        </div>
+        <div class="container-vagas-presencial">
+            <label class="title-vagas">Mecânico(a) Industrial ou Automotivo</label>
+            <img src="../assets/macanica-logo.png" class="logo-loja" style="background-color: white;">
+            <label style="color: white; font-size: 20px; margin-left: 20px;">Atribuições:</label>
+            <label style="font-size: 23px; color: white; margin-bottom: 50px; margin-left: 110px;">Minimizar o tempo de inatividade (paradas) das máquinas/veículos, garantindo a continuidade e segurança da produção/operação.</label>
+            <button class="button-candidatar">Saber Mais</button>
+        </div>
+    </div>
+
+
+    <aside class="chat-sidebar">
+      <div class="chat-header">
+        <h3>Mensagens</h3>
+      </div>
+      <div class="chat-body">
+        <input class="input-search" type="text" style="position: absolute; height: 35px; border-radius: 10px; width: 90%; margin: -60px 0 0 0; border: none;" placeholder="Pesquisar um Conversa">
+        <div class="perfil">
+            <img src="../assets/perfil-ana.jpg" style="height: 50px; border-radius: 100%; width: 50px; margin-left: 10px; margin-top: 10px;">
+            <p style="margin-left: 60px; position: absolute; top: 160px; right: 35px; ">Quando podemos marcar ...</p>
+            <strong style="position: absolute; font-size: 17px; margin-top: 10px; margin-left: 10px; background: none;">Ana Clara</strong>
+        </div>
+        <div class="perfil">
+            <img src="../assets/perfil-joao.jpeg" style="height: 50px; border-radius: 100%; width: 50px; margin-left: 10px; margin-top: 10px;">
+            <strong style="background: none; font-size: 18px; left: 100px; top: 215px; position: absolute;">João Gabriel</strong>
+            <p style="right: 35px; top: 250px; position: absolute;">Quais são suas experiencias?</p>
+        </div>
+        <div class="perfil">
+            <img src="../assets/perfil-maria.jpeg" style="height: 50px; width: 50px; border-radius: 100%; margin-left: 10px; margin-top: 10px;">
+            <strong style="background: none; font-size: 18px; position: absolute; top: 305px; right: 75px;">Maria Fernanda</strong>
+            <p style="position: absolute; right: 20px; font-size: 12px; top: 340px; right: 30px;">Olá! Parabéns, você foi selecionado!</p>
+        </div>
+      </div>
+    </aside>
+ 
+</body>
+</html>
